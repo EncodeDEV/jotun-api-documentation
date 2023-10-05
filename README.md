@@ -30,4 +30,4 @@ Danh sách các API quét mã:
 Danh sách các API khác:
 
 - Lấy thông tin hiển thị Menu tài khoản
-- Bắt buộc cập nhật ứng dụng
+- Trạng thái ứng dụng: Bắt buộc hoặc khuyến nghị cập nhật, thông báo bảo trì
