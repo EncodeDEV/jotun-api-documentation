@@ -17,3 +17,7 @@ Danh sách các API quét mã:
 
 - [Lấy thông tin mã QR](https://github.com)
 - [Lấy thông tin mã vạch](https://github.com)
+
+Danh sách các API khác:
+
+- Lấy thông tin hiển thị Menu tài khoản
