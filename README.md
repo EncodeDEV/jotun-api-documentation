@@ -8,7 +8,7 @@ Các API cần sau cần có token được lấy từ API xác thực trên đ�
 
 Danh sách các API liên quan tới tài khoản đăng nhập:
 
-- [Kiểm tra mã đại lý](https://github.com)
+- [Kiểm tra mã đại lý](agent-check.md)
 - [Đăng ký tài khoản đại lý](https://github.com)
 - [Đăng nhập tài khoản đại lý bằng username](https://github.com)
 - [Đăng nhập tài khoản đại lý bằng số điện thoại](https://github.com)
