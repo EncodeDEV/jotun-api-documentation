@@ -16,7 +16,7 @@ Danh sách các API liên quan tới tài khoản đăng nhập:
 - [Kiểm tra trạng thái đăng nhập](https://github.com)
 - [Lấy thông tin tài khoản](https://github.com)
 - [Cập nhật thông tin tài khoản](https://github.com)
-   - [Xác thực mật khẩu trước khi cập nhật tài khoản](https://github.com)
+   - Xác thực mật khẩu trước khi cập nhật tài khoản
 - [Cập nhật ảnh đại diện](https://github.com)
 - [Lấy danh sách mã đã kích hoạt](https://github.com)
 - [Lấy thông tin chi tiết mã](https://github.com)
