@@ -1,8 +1,13 @@
 # JOTUN Mobile App API Documentation by VietCheck
 
-Danh sách các API liên quan tới tài khoản đăng nhập:
+API xác thực quyền truy cập:
 
 - [Lấy token xác thực quyền truy cập](https://github.com)
+
+Các API cần sau cần có token được lấy từ API xác thực trên để có thể truy cập
+
+Danh sách các API liên quan tới tài khoản đăng nhập:
+
 - [Kiểm tra mã đại lý](https://github.com)
 - [Đăng ký tài khoản đại lý](https://github.com)
 - [Đăng nhập tài khoản đại lý bằng username](https://github.com)
