@@ -1,6 +1,6 @@
 # JOTUN Mobile App API Documentation by VietCheck
 
-API xác thực quyền truy cập:
+API xác thực quyền truy cập bằng key đã được cung cấp:
 
 - [Lấy token xác thực quyền truy cập](https://github.com)
 
