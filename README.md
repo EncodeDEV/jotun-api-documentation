@@ -2,7 +2,7 @@
 
 API xác thực quyền truy cập bằng key đã được cung cấp:
 
-- [Lấy token xác thực quyền truy cập](https://github.com)
+- [Lấy token xác thực quyền truy cập](token-access.md)
 
 Các API cần sau cần có token được lấy từ API xác thực trên để có thể truy cập
 
