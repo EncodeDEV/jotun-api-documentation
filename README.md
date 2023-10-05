@@ -14,6 +14,7 @@ Danh sách các API liên quan tới tài khoản đăng nhập:
 - [Đăng nhập tài khoản đại lý bằng số điện thoại](https://github.com)
 - [Cập nhật xác thực số điện thoại](https://github.com)
 - [Lấy thông tin tài khoản](https://github.com)
+- - [Xác thực mật khẩu trước khi cập nhật tài khoản](https://github.com)
 - [Cập nhật thông tin tài khoản](https://github.com)
 - [Cập nhật ảnh đại diện](https://github.com)
 - [Lấy danh sách mã đã kích hoạt](https://github.com)
