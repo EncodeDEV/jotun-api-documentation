@@ -9,11 +9,11 @@ Các API cần sau cần có token được lấy từ API xác thực trên đ�
 Danh sách các API liên quan tới tài khoản đăng nhập:
 
 - [Kiểm tra mã đại lý](agent-check.md)
-- [Đăng ký tài khoản đại lý](https://github.com)
-- [Đăng nhập tài khoản đại lý bằng username](https://github.com)
-- [Đăng nhập tài khoản đại lý bằng số điện thoại](https://github.com)
+- [Đăng ký tài khoản đại lý](register.md)
+- [Đăng nhập tài khoản đại lý bằng username](login.md)
+- [Đăng nhập tài khoản đại lý bằng số điện thoại](login-phone.md)
 - [Cập nhật xác thực số điện thoại](https://github.com)
-- [Kiểm tra trạng thái đăng nhập](https://github.com)
+- [Kiểm tra trạng thái đăng nhập](check-login-status.md)
 - [Lấy thông tin tài khoản](https://github.com)
 - [Cập nhật thông tin tài khoản](update-user.md)
    - Xác thực mật khẩu trước khi cập nhật tài khoản
