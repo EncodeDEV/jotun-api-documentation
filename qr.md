@@ -22,7 +22,7 @@ Các tham số gửi lên ngoài tham số bắt buộc:
 | `account_token` | `string` | Token xác thực tài khoản đăng nhập nhận được khi đăng nhập [Xem tại đây](login.md) |
 
 ### Kết quả trả về
-Kết quả dữ liệu hợp lệ:
+Kết quả dữ liệu hợp lệ, mã QR được hỗ trợ:
 
 Trường hợp mã QR đã được đại lý kích hoạt:
 ```http
@@ -156,4 +156,30 @@ Content-Type: application/json
 <details>
 <summary>Màn hình hiển thị trường hợp này như sau</summary>
 <img src="images/jotun_qr_not_exists_1242x2688.png" width="300">
+</details>
+
+Kết quả mã QR không hỗ trợ:
+```http
+STATUS: 200 OK
+Content-Type: application/json
+```
+```javascript
+{
+    "message": "Mã QR không phải là mã của JOTUN",
+    "errors": {
+        "code": [
+            "Mã QR không tồn tại (12012)"
+        ]
+    },
+    "data": {
+        "code": "[QR_CONTENT]"
+    },
+    "status": "INVALID_FIELD",
+    "status_code": 422
+}
+```
+
+<details>
+<summary>Màn hình hiển thị trường hợp này như sau</summary>
+<img src="images/jotun_qr_text_1242x2688.png" width="300">
 </details>
