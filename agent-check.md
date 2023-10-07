@@ -15,8 +15,10 @@ Các tham số gửi lên
 
 ### Kết quả trả về
 Kết quả dữ liệu hợp lệ:
-```javascript
+ ```http
 HTTP STATUS: 200 OK
+```
+```javascript
 {
     "message": "Mã đại lý hợp lệ",
     "data": {
@@ -29,8 +31,10 @@ HTTP STATUS: 200 OK
 ```
 
 Dữ liệu không hợp lệ:
-```javascript
+ ```http
 HTTP STATUS: 200 OK
+```
+```javascript
 {
     "message": "Mã đại lý không đúng (10004)",
     "errors": {
