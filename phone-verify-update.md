@@ -51,5 +51,18 @@ Content-Type: application/json
 }
 ```
 
+Token không đúng:
+ ```http
+STATUS: 200 OK
+Content-Type: application/json
+```
+```javascript
+{
+    "message": "Vui lòng đăng nhập để tiếp tục",
+    "status": "UNAUTHORIZED",
+    "status_code": 401
+}
+```
+
 # Hình ảnh màn hình hiển thị
 <img src="images/jotun_register_otp_1242x2688.png" width="360"/>
