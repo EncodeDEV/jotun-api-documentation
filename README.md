@@ -58,18 +58,20 @@ Các API cần sau cần có token được lấy từ API xác thực trên đ�
 - Đồng bộ lịch sử quét sau khi đăng nhập tài khoản
 
 ## Response Status, Status Code
+Kết quả trả về với https status 200 nếu dữ liệu gửi lên là hợp lệ có thể xử lý, một số trường hợp khác lỗi hệ thống là 500, do gửi sai phương thức là 405, sai địa chỉ là 404, không xác thực là 401, không có quyền là 403 (Xem danh sách HTTP status ở dưới)
 API trả về một số status, status code trong kết quả như sau:
 
 | status_code | status | description
 | :--- | :--- | :--- | 
 | 200 | `OK` | Xử lý yêu cầu thành công |
 | 401 | `UNAUTHORIZED` | Yêu cầu chưa được xác thực |
-| 400 | `BAD REQUEST` | Yêu cầu không thể xử lý |
-| 403 | `REQUEST DENIED` | Không có quyền truy cập |
-| 404 | `NOT FOUND` | Không tìm thấy dữ liệu |
-| 422 | `INVALID FIELD` | Có dữ liệu gửi lên không cho phép |
-| 500 | `INTERNAL SERVER ERROR` | Lỗi hệ thống hoặc máy chủ |
-
+| 400 | `BAD_REQUEST` | Yêu cầu không thể xử lý |
+| 403 | `REQUEST_DENIED` | Không có quyền truy cập |
+| 404 | `NOT_FOUND` | Không tìm thấy dữ liệu |
+| 405 | `METHOD_NOT_ALLOW` | Phương thức yêu cầu không hợp lệ |
+| 422 | `INVALID_FIELD` | Có dữ liệu gửi lên không cho phép |
+| 500 | `INTERNAL_SERVER ERROR` | Lỗi hệ thống hoặc máy chủ |
+| 900 | `AUTHORIZED` | Đang đăng nhập tài khoản |
 
 ## HTTP Status có thể trả về
 
@@ -82,6 +84,7 @@ API trả về một số https status code sau:
 | 400 | `BAD REQUEST` | Yêu cầu không thể xử lý |
 | 403 | `REQUEST DENIED` | Không có quyền truy cập |
 | 404 | `NOT FOUND` | Không tìm thấy dữ liệu |
+| 405 | `Method Not Allowed` | Phương thức yêu cầu không hợp lệ |
 | 422 | `INVALID FIELD` | Có dữ liệu gửi lên không cho phép |
 | 500 | `INTERNAL SERVER ERROR` | Lỗi hệ thống hoặc máy chủ |
 
