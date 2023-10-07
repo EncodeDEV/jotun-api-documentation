@@ -14,8 +14,9 @@ Các tham số gửi lên
 | `code` | `string` | **Bắt buộc**. Mã đại lý |
 
 ### Kết quả trả về
-Kết quả hợp lệ:
+Kết quả dữ liệu hợp lệ:
 ```javascript
+HTTP STATUS: 200 OK
 {
     "message": "Mã đại lý hợp lệ",
     "data": {
@@ -24,6 +25,21 @@ Kết quả hợp lệ:
     },
     "status": "OK",
     "status_code": 200
+}
+```
+
+Dữ liệu không hợp lệ:
+```javascript
+HTTP STATUS: 200 OK
+{
+    "message": "Mã đại lý không đúng (10004)",
+    "errors": {
+        "code": [
+            "Mã đại lý không đúng (10004)"
+        ]
+    },
+    "status": "INVALID_FIELD",
+    "status_code": 422
 }
 ```
 
