@@ -8,6 +8,10 @@
 | `Content-Type` | `application/json` | **Bắt buộc**. Cần có trong nội dung để có thể nhận về kết quả chính xác |
 | `Accept` | `application/json` | **Bắt buộc**. Cần có trong nội dung để có thể nhận về kết quả chính xác |
 
+Trừ API lấy token cần gửi kèm thêm key sau:
+
+| `Authorization` | `Bearer xxxx` | **Bắt buộc**. Token để xác thực quyền truy cập thông tin |
+
 > [!IMPORTANT]
 > Đồng thời cần gửi kèm các tham số sau (trừ Api lấy token):
 
