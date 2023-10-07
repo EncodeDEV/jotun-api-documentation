@@ -27,37 +27,31 @@ Content-Type: application/json
 ```
 ```javascript
 {
-    "message": "Tài khoản đang đăng nhập",
-    "data": {
-        "avatar": "[LINK_IMAGE]",
-        "phone": {
-            "verified": false,
-            "need_verify": false
-        }
-    },
+    "message": "Xác thực số điện thoại thành công",
     "status": "OK",
     "status_code": 200
 }
 ```
 
-- `data.avatar` link ảnh đại diện
-- `data.phone.verified` trạng thái xác thực số điện thoại
-- `data.phone.need_verify` có cần xác thực số điện thoại hay không
-
-Token không đúng:
+Đã xác thực từ trước:
  ```http
 STATUS: 200 OK
 Content-Type: application/json
 ```
 ```javascript
 {
-    "message": "Không đăng nhập tài khoản",
-    "status": "UNAUTHORIZED",
-    "status_code": 401
+    "message": "Tài khoản đã xác thực số điện thoại",
+    "errors": {
+        "account": [
+            "Số điên thoại của tài khoản này đã được xác thực trước đó"
+        ]
+    },
+    "status": "INVALID_FIELD",
+    "status_code": 422
 }
 ```
 ```
 DMA0001
 ```
 # Hình ảnh màn hình hiển thị
-<img src="images/jotun_register_s1_1242x2688.png" width="360"/>
+<img src="images/jotun_register_otp_1242x2688.png" width="360"/>
