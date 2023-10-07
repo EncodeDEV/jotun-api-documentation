@@ -1,5 +1,11 @@
 # JOTUN Mobile App API Documentation by VietCheck
 
+Tất cả các API cần gửi kèm các key Header sau:
+| Key | Value | Description |
+| :--- | :--- | :--- |
+| `Content-Type` | `application/json` | **Bắt buộc**. Cần có trong nội dung để có thể nhận về kết quả chính xác |
+| `Accept` | `application/json` | **Bắt buộc**. Cần có trong nội dung để có thể nhận về kết quả chính xác |
+
 ## API xác thực quyền truy cập bằng key đã được cung cấp:
 
 - [Lấy token xác thực quyền truy cập](token-access.md)
