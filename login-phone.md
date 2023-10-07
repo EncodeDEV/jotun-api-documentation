@@ -18,7 +18,7 @@ Các tham số gửi lên lên ngoài tham số bắt buộc:
 | `cc_phone` | `string` | **Bắt buộc**. Mã điện thoại quốc gia hợp lệ |
 | `phone` | `string` | **Bắt buộc**. Số điện thoại, tối đa 14 ký tự |
 | `password` | `string` | **Bắt buộc**. Mật khẩu đăng nhập, tối thiểu 8 ký tự, chứ ít nhất một: ký tự viết hoa, viết thường, chữ số, chữ cái và ký tự đặc biệt |
-
+| `account_token` | `string` | Token (nếu có) tài khoản đang đăng nhập |
 
 ### Kết quả trả về
 Kết quả dữ liệu hợp lệ:
