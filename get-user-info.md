@@ -66,3 +66,6 @@ Content-Type: application/json
     "status_code": 401
 }
 ```
+
+# Hình ảnh màn hình hiển thị
+![Hình ảnh hiển thị dữ liệu](images/jotun_user_1242x2688.png)
