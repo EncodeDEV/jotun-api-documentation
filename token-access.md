@@ -4,6 +4,9 @@ Gửi request thông qua địa chỉ sau
 
  ```http
 POST https://jotun.mhvn.vn/oauth/token
+
+Accept: application/json
+Content-Type: application/json
 ```
 
 Các tham số gửi lên
