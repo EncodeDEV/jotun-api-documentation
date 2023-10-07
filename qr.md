@@ -95,7 +95,7 @@ Content-Type: application/json
 
 - `data.code` Nội dung mã QR
 - `data.qr` Thông tin mã QR
-- `data.qr_status` = `unactived` Mã đang bị khóa
+- `data.qr_status` = `unactived` Mã chưa được đại lý kích hoạt
 - `data.warning_text` Nội dung hiển thị ở khung cảnh bảo
 
 <details>
@@ -112,12 +112,7 @@ Content-Type: application/json
 {
     "message": "Lấy thông tin thành công",
     "data": {
-        "code": "https://mhvn.vn/?j=35JGFM710000000001",
-        "qr": {
-            "serial": "10000000001",
-            "view": 0,
-            "last_view": null
-        },
+        "code": "[QR_CONTENT]",
         "qr_status": "blocked",
         "warning_text": "Mã đã bị khóa. Vui lòng liên hệ đại lý hoặc HOTLINE để được hỗ trợ"
     },
@@ -133,4 +128,31 @@ Content-Type: application/json
 <details>
 <summary>Màn hình hiển thị trường hợp này như sau</summary>
 <img src="images/jotun_qr_block_1242x2688.png" width="300">
+</details>
+
+Trường hợp mã QR bị xóa:
+```http
+STATUS: 200 OK
+Content-Type: application/json
+```
+```javascript
+{
+    "message": "Lấy thông tin thành công",
+    "data": {
+        "code": "[QR_CONTENT]",
+        "qr_status": "trashed",
+        "warning_text": "Mã không tồn tại. Vui lòng liên hệ đại lý hoặc HOTLINE để được hỗ trợ"
+    },
+    "status": "OK",
+    "status_code": 200
+}
+```
+
+- `data.code` Nội dung mã QR
+- `data.qr_status` = `blocked` Mã đang bị khóa
+- `data.warning_text` Nội dung hiển thị ở khung cảnh bảo
+
+<details>
+<summary>Màn hình hiển thị trường hợp này như sau</summary>
+<img src="images/jotun_qr_not_exists_1242x2688.png" width="300">
 </details>
