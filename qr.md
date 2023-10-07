@@ -34,6 +34,7 @@ Content-Type: application/json
     "message": "Lấy thông tin thành công",
     "data": {
         "code": "[QR_CONTENT]",
+        "qr_status": "actived",
         "qr": {
             "serial": "10000000003",
             "view": 1,
