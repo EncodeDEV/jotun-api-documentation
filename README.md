@@ -47,3 +47,7 @@ API trả về một số https status code sau:
 | 404 | `NOT FOUND` | Không tìm thấy dữ liệu |
 | 422 | `INVALID FIELD` | Có dữ liệu gửi lên không cho phép |
 | 500 | `INTERNAL SERVER ERROR` | Lỗi hệ thống hoặc máy chủ |
+
+## Dữ liệu mẫu
+
+[Mã QR mẫu](https://docs.google.com/spreadsheets/d/1JH_hu31zSQLwPjmFE7X00k1yrkju7R4PNSu3f3MSR6c/edit?usp=sharing)
