@@ -32,5 +32,5 @@ Kết quả trả về dưới dạng JSON chứa thông tin token truy cập, v
 
 Có thể gửi token xác thực thông quan key Header `Authorization`:
 ```
-`Authorization` : `Bearer xxxx`
+`Authorization` : `Bearer eyJ0eXAiOiJKV-pmnw....8Dbv_l03p5WK2zHh8`
 ```
