@@ -17,11 +17,11 @@ Các tham số gửi lên lên ngoài tham số bắt buộc:
 
 | Key | Type | Description |
 | :--- | :--- | :--- |
-| `name` | `string` | **Bắt buộc**. Tên hiển thị |
-| `username` | `string` | **Bắt buộc**. Tên đăng nhập |
-| `cc_phone` | `string` | **Bắt buộc**. Mã điện thoại quốc gia |
-| `phone` | `string` | **Bắt buộc**. Số điện thoại |
-| `password` | `string` | **Bắt buộc**. Mật khẩu đăng nhập |
+| `name` | `string` | **Bắt buộc**. Tên hiển thị, tối đa 50 ký tự |
+| `username` | `string` | **Bắt buộc**. Tên đăng nhập, chỉ chấp nhận chữ cái không dấu, chữ số, dấu gạch dưới, tối đa 30 ký tự |
+| `cc_phone` | `string` | **Bắt buộc**. Mã điện thoại quốc gia hợp lệ |
+| `phone` | `string` | **Bắt buộc**. Số điện thoại, tối đa 14 ký tự |
+| `password` | `string` | **Bắt buộc**. Mật khẩu đăng nhập, tối thiểu 8 ký tự, chứ ít nhất một: ký tự viết hoa, viết thường, chữ số, chữ cái và ký tự đặc biệt |
 | `password_confirmation` | `string` | **Bắt buộc**. Mật khẩu đăng nhập nhập lại |
 | `agent_id` | `string` | **Bắt buộc**. ID đại lý lấy được từ [API Kiểm tra thông tin đại lý](agent-check.md) |
 
