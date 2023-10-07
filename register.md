@@ -47,7 +47,7 @@ Content-Type: application/json
     "status_code": 200
 }
 ```
-- `data.token` mã xác thực tài khoản đại lý
+- `data.token` mã xác thực tài khoản đại lý đang đăng nhập
 - `data.avatar` link ảnh đại diện
 - `data.phone.verified` trạng thái xác thực số điện thoại
 - `data.phone.need_verify` có cần xác thực số điện thoại hay không
