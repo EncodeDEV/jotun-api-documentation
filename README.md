@@ -12,7 +12,7 @@ Tất cả các API cần gửi kèm các key Header sau:
 
 Các API cần sau cần có token được lấy từ API xác thực trên để có thể truy cập
 
-## Danh sách các API liên quan tới tài khoản đăng nhập:
+### Danh sách các API liên quan tới tài khoản đăng nhập:
 
 - [Kiểm tra mã đại lý](agent-check.md)
 - [Đăng ký tài khoản đại lý](register.md)
@@ -34,7 +34,7 @@ Danh sách các API quét mã:
 - [Lấy thông tin mã vạch](barcode.md)
 - [Gửi báo sai thông tin](report.md)
 
-## Danh sách các API khác:
+### Danh sách các API khác:
 
 - Lấy thông tin hiển thị Menu tài khoản.
 - Lấy thông tin hiển thị giao diện
