@@ -34,6 +34,7 @@ Các API cần sau cần có token được lấy từ API xác thực trên đ�
 - [Đăng ký tài khoản đại lý](register.md)
 - [Đăng nhập tài khoản đại lý bằng username](login.md)
 - [Đăng nhập tài khoản đại lý bằng số điện thoại](login-phone.md)
+- [Đăng xuất tài khoản đại lý](logout.md)
 - [Cập nhật xác thực số điện thoại](phone-verify-update.md)
 - [Kiểm tra trạng thái đăng nhập](check-login-status.md)
 - [Lấy thông tin tài khoản](user.md)
