@@ -17,7 +17,7 @@ Các tham số gửi lên lên ngoài tham số bắt buộc:
 | :--- | :--- | :--- |
 | `username` | `string` | **Bắt buộc**. Tên đăng nhập, chỉ chấp nhận chữ cái không dấu, chữ số, dấu gạch dưới, tối đa 30 ký tự |
 | `password` | `string` | **Bắt buộc**. Mật khẩu đăng nhập, tối thiểu 8 ký tự, chứ ít nhất một: ký tự viết hoa, viết thường, chữ số, chữ cái và ký tự đặc biệt |
-| `account_token` | `string` | Token (nếu có) tài khoản đang đăng nhập |
+| `account_token` | `string` | Token (nếu có) tài khoản đang đăng nhập, nếu token hợp lệ sẽ cần thoát tài khoản trước khi đăng đăng nhập |
 
 
 ### Kết quả trả về
