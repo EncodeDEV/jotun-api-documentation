@@ -16,6 +16,7 @@ Các tham số gửi lên
 ### Kết quả trả về
 
 ### Dữ liệu mẫu
+Mã đại lý:
 ```
-Mã đại lý: DMA0001
+DMA0001
 ```
