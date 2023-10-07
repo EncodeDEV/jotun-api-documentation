@@ -15,11 +15,11 @@ Danh sách các API liên quan tới tài khoản đăng nhập:
 - [Cập nhật xác thực số điện thoại](https://github.com)
 - [Kiểm tra trạng thái đăng nhập](https://github.com)
 - [Lấy thông tin tài khoản](https://github.com)
-- [Cập nhật thông tin tài khoản](https://github.com)
+- [Cập nhật thông tin tài khoản](update-user.md)
    - Xác thực mật khẩu trước khi cập nhật tài khoản
-- [Cập nhật ảnh đại diện](https://github.com)
+- [Cập nhật ảnh đại diện](change-avatar.md)
 - [Lấy danh sách mã đã kích hoạt](https://github.com)
-- [Lấy thông tin chi tiết mã](https://github.com)
+- [Lấy thông tin chi tiết mã](code-detail.md)
 
 Danh sách các API quét mã:
 
