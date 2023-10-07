@@ -28,7 +28,7 @@ Các API cần sau cần có token được lấy từ API xác thực trên đ�
 - [Lấy thông tin chi tiết mã](code-detail.md)
 - Khóa tài khoản
 
-Danh sách các API quét mã:
+### Danh sách các API quét mã:
 
 - [Lấy thông tin mã QR](qr.md)
 - [Lấy thông tin mã vạch](barcode.md)
