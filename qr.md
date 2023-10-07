@@ -70,3 +70,35 @@ Content-Type: application/json
 <img src="images/jotun_qr_1242x2688.png" width="300">
 </details>
 
+Trường hợp mã QR chưa được đại lý kích hoạt:
+```http
+STATUS: 200 OK
+Content-Type: application/json
+```
+```javascript
+{
+    "message": "Lấy thông tin thành công",
+    "data": {
+        "code": "[QR_CONTENT]",
+        "qr": {
+            "serial": "10000000004",
+            "view": 0,
+            "last_view": null
+        },
+        "unactived": true,
+        "warning_text": "Mã chưa được kích hoạt. Vui lòng liên hệ đại lý để kích hoạt"
+    },
+    "status": "OK",
+    "status_code": 200
+}
+```
+
+- `data.code` Nội dung mã QR
+- `data.qr` Thông tin mã QR
+- `data.unactived` Xác nhận mã chưa được kích hoạt
+- `data.warning_text` Nội dung hiển thị ở khung cảnh bảo
+
+<details>
+<summary>Màn hình hiển thị trường hợp này như sau</summary>
+<img src="images/jotun_qr_unactive_1242x2688.png" width="300">
+</details>
