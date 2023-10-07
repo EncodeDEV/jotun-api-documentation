@@ -62,4 +62,4 @@ Mã đại lý:
 DMA0001
 ```
 # Hình ảnh màn hình hiển thị
-![Hình ảnh hiển thị dữ liệu](images/jotun_register_s1_1242x2688.png)
+<img src="images/jotun_register_s1_1242x2688.png" width="500"/>
