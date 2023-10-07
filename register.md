@@ -27,7 +27,7 @@ Các tham số gửi lên lên ngoài tham số bắt buộc:
 | `account_token` | `string` | Token (nếu có) tài khoản đang đăng nhập, nếu token hợp lệ sẽ cần thoát tài khoản trước khi đăng ký mới |
 
 ### Kết quả trả về
-Kết quả dữ liệu hợp lệ:
+Kết quả dữ liệu hợp lệ tài khoản sẽ được đăng nhập luôn:
  ```http
 STATUS: 200 OK
 Content-Type: application/json
