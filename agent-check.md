@@ -35,6 +35,9 @@ Content-Type: application/json
 }
 ```
 
+- `data.id` ID của đại lý sử dụng để đăng ký tài khoản
+- `data.name` tên đại lý
+
 Dữ liệu không hợp lệ:
  ```http
 STATUS: 200 OK
