@@ -63,11 +63,9 @@ Content-Type: application/json
 ```
 ```javascript
 {
-    "message": "Tên đăng nhập hoặc mật khẩu không chính xác",
+    "message": "Số điện thoại hoặc mật khẩu không chính xác",
     "errors": {
-        "password": [
-            "Mật khẩu không chính xác (11030)"
-        ]
+        "phone": "Số điện thoại hoặc mật khẩu không chính xác"
     },
     "status": "INVALID_FIELD",
     "status_code": 422
