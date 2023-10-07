@@ -19,7 +19,7 @@ Các tham số gửi lên ngoài tham số bắt buộc:
 
 ### Kết quả trả về
 Kết quả dữ liệu hợp lệ:
- ```http
+```http
 STATUS: 200 OK
 Content-Type: application/json
 ```
