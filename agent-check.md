@@ -16,7 +16,8 @@ Các tham số gửi lên
 ### Kết quả trả về
 Kết quả dữ liệu hợp lệ:
  ```http
-HTTP STATUS: 200 OK
+STATUS: 200 OK
+Content-Type: application/json
 ```
 ```javascript
 {
