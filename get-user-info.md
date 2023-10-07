@@ -68,4 +68,4 @@ Content-Type: application/json
 ```
 
 # Hình ảnh màn hình hiển thị
-![](images/jotun_user_1242x2688.png){: width="50%"}
+<img src="images/jotun_user_1242x2688.png" width="500">
