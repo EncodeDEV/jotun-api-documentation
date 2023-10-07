@@ -24,6 +24,7 @@ Các tham số gửi lên lên ngoài tham số bắt buộc:
 | `password` | `string` | **Bắt buộc**. Mật khẩu đăng nhập, tối thiểu 8 ký tự, chứ ít nhất một: ký tự viết hoa, viết thường, chữ số, chữ cái và ký tự đặc biệt |
 | `password_confirmation` | `string` | **Bắt buộc**. Mật khẩu đăng nhập nhập lại |
 | `agent_id` | `string` | **Bắt buộc**. ID đại lý lấy được từ [API Kiểm tra thông tin đại lý](agent-check.md) |
+| `account_token` | `string` | Token (nếu có) tài khoản đang đăng nhập, nếu token hợp lệ sẽ cần thoát tài khoản trước khi đăng ký mới |
 
 ### Kết quả trả về
 Kết quả dữ liệu hợp lệ:
