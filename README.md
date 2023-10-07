@@ -33,6 +33,7 @@ Danh sách các API quét mã:
 - Lấy thông tin hiển thị Menu tài khoản.
 - Lấy thông tin hiển thị giao diện
 - Trạng thái ứng dụng: Bắt buộc hoặc khuyến nghị cập nhật, thông báo bảo trì
+- Đồng bộ lịch sử quét sau khi đăng nhập tài khoản
 
 ## Response Status, Status Code
 
