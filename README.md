@@ -58,6 +58,18 @@ Các API cần sau cần có token được lấy từ API xác thực trên đ�
 - Đồng bộ lịch sử quét sau khi đăng nhập tài khoản
 
 ## Response Status, Status Code
+API trả về một số status, status code trong kết quả như sau:
+
+| status_code | status | description
+| :--- | :--- | :--- | 
+| 200 | `OK` | Xử lý yêu cầu thành công |
+| 401 | `UNAUTHORIZED` | Yêu cầu chưa được xác thực |
+| 400 | `BAD REQUEST` | Yêu cầu không thể xử lý |
+| 403 | `REQUEST DENIED` | Không có quyền truy cập |
+| 404 | `NOT FOUND` | Không tìm thấy dữ liệu |
+| 422 | `INVALID FIELD` | Có dữ liệu gửi lên không cho phép |
+| 500 | `INTERNAL SERVER ERROR` | Lỗi hệ thống hoặc máy chủ |
+
 
 ## HTTP Status có thể trả về
 
