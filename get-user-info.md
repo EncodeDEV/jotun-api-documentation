@@ -4,7 +4,7 @@ API cần gửi các tham số bắt buộc [Xem tại đây](README.md) và c�
 
  Gửi request thông qua địa chỉ sau
  ```http
-GET https://jotun..mhvn.vn/api/auth/check
+GET https://jotun..mhvn.vn/api/auth/detail
 
 Accept: application/json
 Authorization: Bearer eyJ0eXAiOiJKV-pmnw....8Dbv_l03p5WK2zHh8
