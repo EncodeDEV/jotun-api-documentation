@@ -1,1 +1,70 @@
 # Đăng ký tài khoản mới
+
+Trước khi thực hiện bước đăng ký cần lấy thông tin đại lý bằng [API kiểm tra thông tin đại lý](agent-check.md)
+
+API cần gửi các tham số bắt buộc [Xem tại đây](README.md) và cần xác thực bằng token, token có thể tạo ở API token đã được cung cấp [Xem tại đây](token-access.md).
+
+ Gửi request thông qua địa chỉ sau
+ ```http
+POST https://jotun..mhvn.vn/api/auth/register
+
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV-pmnw....8Dbv_l03p5WK2zHh8
+Content-Type: application/json
+```
+
+Các tham số gửi lên lên ngoài tham số bắt buộc:
+
+| Key | Type | Description |
+| :--- | :--- | :--- |
+| `name` | `string` | **Bắt buộc**. Tên hiển thị |
+| `username` | `string` | **Bắt buộc**. Tên đăng nhập |
+| `cc_phone` | `string` | **Bắt buộc**. Mã điện thoại quốc gia |
+| `phone` | `string` | **Bắt buộc**. Số điện thoại |
+| `password` | `string` | **Bắt buộc**. Mật khẩu đăng nhập |
+| `password_confirmation` | `string` | **Bắt buộc**. Mật khẩu đăng nhập nhập lại |
+| `agent_id` | `string` | **Bắt buộc**. ID đại lý lấy được từ [API Kiểm tra thông tin đại lý](agent-check.md) |
+
+### Kết quả trả về
+Kết quả dữ liệu hợp lệ:
+ ```http
+STATUS: 200 OK
+Content-Type: application/json
+```
+```javascript
+{
+    "message": "Đăng ký tài khoản thành công",
+    "data": {
+        "token": "vs7zv3shXZfo....g61kamFRg41dfd398",
+        "phone": {
+            "verified": false,
+            "need_verify": true
+        },
+        "avatar": "[LINK_IMAGE]"
+    },
+    "status": "OK",
+    "status_code": 200
+}
+```
+- `data.token` mã xác thực tài khoản đại lý
+- `data.avatar` link ảnh đại diện
+- `data.phone.verified` trạng thái xác thực số điện thoại
+- `data.phone.need_verify` có cần xác thực số điện thoại hay không
+
+Dữ liệu không hợp lệ:
+ ```http
+STATUS: 200 OK
+Content-Type: application/json
+```
+```javascript
+{
+    "message": "Có trường dữ liệu không hợp lệ. Vui lòng kiểm tra lại",
+    "errors": {
+        "username": [
+            "Tên đăng nhập đã được sử dụng (11014)"
+        ]
+    },
+    "status": "INVALID_FIELD",
+    "status_code": 422
+}
+```
