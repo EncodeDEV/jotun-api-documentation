@@ -18,18 +18,20 @@ Các API cần sau cần có token được lấy từ API xác thực trên đ�
 - [Cập nhật thông tin tài khoản](update-user.md)
    - Xác thực mật khẩu trước khi cập nhật tài khoản
 - [Cập nhật ảnh đại diện](change-avatar.md)
-- [Lấy danh sách mã đã kích hoạt](https://github.com)
+- [Lấy danh sách mã đã kích hoạt](actived-codes.md)
 - [Lấy thông tin chi tiết mã](code-detail.md)
+- Khóa tài khoản
 
 Danh sách các API quét mã:
 
-- [Lấy thông tin mã QR](https://github.com)
-- [Lấy thông tin mã vạch](https://github.com)
-- [Gửi báo sai thông tin](https://github.com)
+- [Lấy thông tin mã QR](qr.md)
+- [Lấy thông tin mã vạch](barcode.md)
+- [Gửi báo sai thông tin](report.md)
 
 ## Danh sách các API khác:
 
-- Lấy thông tin hiển thị Menu tài khoản
+- Lấy thông tin hiển thị Menu tài khoản.
+- Lấy thông tin hiển thị giao diện
 - Trạng thái ứng dụng: Bắt buộc hoặc khuyến nghị cập nhật, thông báo bảo trì
 
 ## Response Status, Status Code
