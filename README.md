@@ -71,7 +71,7 @@ API trả về một số status, status code trong kết quả như sau:
 | 404 | `NOT_FOUND` | Không tìm thấy dữ liệu |
 | 405 | `METHOD_NOT_ALLOW` | Phương thức yêu cầu không hợp lệ |
 | 422 | `INVALID_FIELD` | Có dữ liệu gửi lên không cho phép |
-| 500 | `INTERNAL_SERVER ERROR` | Lỗi hệ thống hoặc máy chủ |
+| 500 | `INTERNAL_SERVER ERROR` | Lỗi hệ thống |
 | 900 | `AUTHORIZED` | Đang đăng nhập tài khoản |
 
 ## HTTP Status có thể trả về
