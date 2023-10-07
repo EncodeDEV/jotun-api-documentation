@@ -68,4 +68,4 @@ Content-Type: application/json
 ```
 
 # Hình ảnh màn hình hiển thị
-![Hình ảnh hiển thị dữ liệu](images/jotun_user_1242x2688.png | width=500)
+![](images/jotun_user_1242x2688.png|width=500)
