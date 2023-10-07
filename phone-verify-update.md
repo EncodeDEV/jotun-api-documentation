@@ -50,8 +50,6 @@ Content-Type: application/json
     "status_code": 422
 }
 ```
-```
-DMA0001
-```
+
 # Hình ảnh màn hình hiển thị
 <img src="images/jotun_register_otp_1242x2688.png" width="360"/>
