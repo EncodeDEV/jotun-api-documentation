@@ -58,7 +58,7 @@ Các API cần sau cần có token được lấy từ API xác thực trên đ�
 - Đồng bộ lịch sử quét sau khi đăng nhập tài khoản
 
 ## Response Status, Status Code
-Kết quả trả về với https status 200 nếu dữ liệu gửi lên là hợp lệ có thể xử lý, một số trường hợp khác lỗi hệ thống là 500, do gửi sai phương thức là 405, sai địa chỉ là 404, không xác thực là 401, không có quyền là 403 (Xem danh sách HTTP status ở dưới)
+Kết quả trả về với https status 200 nếu thông số gửi lên là hợp lệ có thể xử lý dữ liệu, một số trường hợp khác lỗi hệ thống là 500, do gửi sai phương thức là 405, sai địa chỉ là 404, không xác thực là 401, không có quyền là 403 (Xem danh sách HTTP status ở dưới)
 API trả về một số status, status code trong kết quả như sau:
 
 | status_code | status | description
