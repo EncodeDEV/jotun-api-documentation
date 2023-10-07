@@ -34,6 +34,6 @@ Kết quả trả về dưới dạng JSON chứa thông tin token truy cập, v
 - `access_token` key xác thực quyền truy cập, lưu lại để sử dụng các API khác
 
 Có thể gửi token xác thực thông quan Request Header `Authorization`:
-```
+```http
 `Authorization` : `Bearer eyJ0eXAiOiJKV-pmnw....8Dbv_l03p5WK2zHh8`
 ```
