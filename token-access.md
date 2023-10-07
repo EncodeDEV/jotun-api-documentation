@@ -30,7 +30,7 @@ Kết quả trả về dưới dạng JSON chứa thông tin token truy cập, v
 - `expires_in` thời gian hiệu lực của token, mặc định 1 năm
 - `access_token` key xác thực quyền truy cập, lưu lại để sử dụng các API khác
 
-Có thể gửi token xác thực thông quan key Header `Authorization`:
+Có thể gửi token xác thực thông quan Request Header `Authorization`:
 ```
 `Authorization` : `Bearer eyJ0eXAiOiJKV-pmnw....8Dbv_l03p5WK2zHh8`
 ```
