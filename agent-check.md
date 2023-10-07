@@ -33,7 +33,8 @@ Content-Type: application/json
 
 Dữ liệu không hợp lệ:
  ```http
-HTTP STATUS: 200 OK
+STATUS: 200 OK
+Content-Type: application/json
 ```
 ```javascript
 {
