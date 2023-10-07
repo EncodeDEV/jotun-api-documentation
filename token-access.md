@@ -28,4 +28,4 @@ Kết quả trả về dưới dạng JSON chứa thông tin token truy cập, v
 
 - `token_type` là loại token, mặc định là _Bearer_
 - `expires_in` thời gian hiệu lực của token, mặc định 1 năm
-- `access_token` key xác thực quyền truy cập
+- `access_token` key xác thực quyền truy cập, lưu lại để sử dụng các API khác
