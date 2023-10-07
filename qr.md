@@ -66,7 +66,7 @@ Content-Type: application/json
 - `data.agent` Thông tin đại lý kích hoạt
 
 <details>
-<summary>Màn hình hiển thị trường hợp này như sau:</summary>
+<summary>Màn hình hiển thị trường hợp này như sau</summary>
 <img src="images/jotun_qr_1242x2688.png" width="300">
 </details>
 
