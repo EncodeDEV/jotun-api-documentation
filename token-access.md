@@ -5,12 +5,6 @@ Gửi request thông qua địa chỉ sau
  ```http
 POST https://jotun.mhvn.vn/oauth/token
 ```
-Thông số Header yêu cầu gửi kèm
-
-| Key | Value | Description |
-| :--- | :--- | :--- |
-| `Content-Type` | `application/json` | **Bắt buộc**. Cần có trong nội dung để có thể nhận về kết quả chính xác |
-| `Accept` | `application/json` | **Bắt buộc**. Cần có trong nội dung để có thể nhận về kết quả chính xác |
 
 Các tham số gửi lên
 
