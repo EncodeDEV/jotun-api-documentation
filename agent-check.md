@@ -5,6 +5,9 @@ API cần gửi các tham số bắt buộc [Xem tại đây](README.md) và c�
  Gửi request thông qua địa chỉ sau
  ```http
 POST https://jotun..mhvn.vn/api/agent/check-code
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV-pmnw....8Dbv_l03p5WK2zHh8
+Content-Type: application/json
 ```
 
 Các tham số gửi lên
