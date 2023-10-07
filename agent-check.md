@@ -11,7 +11,7 @@ Authorization: Bearer eyJ0eXAiOiJKV-pmnw....8Dbv_l03p5WK2zHh8
 Content-Type: application/json
 ```
 
-Các tham số gửi lên
+Các tham số gửi lên ngoài tham số bắt buộc:
 
 | Key | Type | Description |
 | :--- | :--- | :--- |
