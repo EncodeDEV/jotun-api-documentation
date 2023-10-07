@@ -14,6 +14,18 @@ Các tham số gửi lên
 | `code` | `string` | **Bắt buộc**. Mã đại lý |
 
 ### Kết quả trả về
+Kết quả hợp lệ:
+```javascript
+{
+    "message": "Mã đại lý hợp lệ",
+    "data": {
+        "id": "0BJkQpxngY",
+        "name": "Đại lý mẫu 001"
+    },
+    "status": "OK",
+    "status_code": 200
+}
+```
 
 ### Dữ liệu mẫu
 Mã đại lý:
