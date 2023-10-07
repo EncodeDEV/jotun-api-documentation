@@ -1,7 +1,7 @@
 # JOTUN Mobile App API Documentation by VietCheck
 
 > [!IMPORTANT]
-> Tất cả các API cần gửi kèm các Header các key sau:
+> Tất cả các API cần gửi kèm Header các key sau:
 
 | Key | Value | Description |
 | :--- | :--- | :--- |
