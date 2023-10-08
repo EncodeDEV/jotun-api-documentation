@@ -87,6 +87,7 @@ API trả về một số https status code sau:
 | 404 | `NOT FOUND` | Không tìm thấy dữ liệu |
 | 405 | `Method Not Allowed` | Phương thức yêu cầu không hợp lệ |
 | 422 | `INVALID FIELD` | Có dữ liệu gửi lên không cho phép |
+| 429 | `LIMITED REQUEST` | Vượt quá số lượng gửi request cho phép |
 | 500 | `INTERNAL SERVER ERROR` | Lỗi hệ thống hoặc máy chủ |
 
 ## Dữ liệu mẫu
