@@ -18,6 +18,7 @@ Các tham số gửi lên ngoài tham số bắt buộc:
 | `account_token` | `string` | **Bắt buộc**. Token xác thực tài khoản đăng nhập nhận được khi đăng nhập [Xem tại đây](login.md) |
 | `name` | `string` | **Bắt buộc**. Tên hiển thị, tối đa 50 ký tự |
 | `username` | `string` | **Bắt buộc**. Tên đăng nhập, chỉ chấp nhận chữ cái không dấu, chữ số, dấu gạch dưới, tối đa 30 ký tự |
+| `email` | `string` | Địa chỉ email hợp lệ, tối đa 50 ký tự |
 | `password` | `string` | **Bắt buộc**. Mật khẩu đăng nhập, tối thiểu 8 ký tự, chứ ít nhất một: ký tự viết hoa, viết thường, chữ số, chữ cái và ký tự đặc biệt |
 | `password_confirmation` | `string` | **Bắt buộc**. Mật khẩu đăng nhập nhập lại |
 
