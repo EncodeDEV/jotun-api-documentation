@@ -42,7 +42,7 @@ Các API cần sau cần có token được lấy từ API xác thực trên đ�
    - Xác thực mật khẩu trước khi cập nhật tài khoản
 - [Cập nhật ảnh đại diện](change-avatar.md)
 - [Lấy danh sách mã đã kích hoạt](actived-codes.md)
-- [Lấy thông tin chi tiết mã](code-detail.md)
+- [Lấy thông tin chi tiết mã đã kích hoạt](code-detail.md)
 - Khóa tài khoản
 
 ### Danh sách các API quét mã:
