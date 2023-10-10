@@ -70,3 +70,9 @@ Content-Type: application/json
     "status_code": 422
 }
 ```
+
+## Dữ liệu mẫu
+Mã đăng ký tài khoản
+```
+DMAC0001, DMAC0002, DMAC0003, DMAC0004
+```
