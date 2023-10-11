@@ -53,7 +53,7 @@ Các API cần sau cần có token được lấy từ API xác thực trên đ�
 
 ### Danh sách các API khác:
 
-- Lấy thông tin hiển thị Menu tài khoản.
+- [Lấy thông tin hiển thị Menu tài khoản.](user-menu.md)
 - Lấy thông tin hiển thị giao diện
 - Trạng thái ứng dụng: Bắt buộc hoặc khuyến nghị cập nhật, thông báo bảo trì
 - Đồng bộ lịch sử quét sau khi đăng nhập tài khoản
