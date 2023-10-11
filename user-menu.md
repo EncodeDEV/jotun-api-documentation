@@ -65,3 +65,16 @@ Content-Type: application/json
 - `title` text hiển thị từng mục
 - `action` hành động khi mở. _web_view_ là mở url trong webview, _open_app_fn_ là mở một màn hình chức năng trong ứng dụng
 - `url` Màn hình hoặc URL mở khi click
+
+Account Token không đúng:
+ ```http
+STATUS: 200 OK
+Content-Type: application/json
+```
+```javascript
+{
+    "message": "Vui lòng đăng nhập để tiếp tục",
+    "status": "UNAUTHORIZED",
+    "status_code": 401
+}
+```
