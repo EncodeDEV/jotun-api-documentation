@@ -16,7 +16,7 @@ Các tham số gửi lên ngoài tham số bắt buộc:
 | Key | Type | Description |
 | :--- | :--- | :--- |
 | `account_token` | `string` | **Bắt buộc**. Token xác thực tài khoản đăng nhập nhận được khi đăng nhập [Xem tại đây](login.md) |
-| `id` | `string` | **Bắt buộc**. ID của mã lấy được từ API khác ví dụ API lấy danh sách mã đã kích hoạt [Xem tại đây](list-codes.md) |
+| `id` | `string` | **Bắt buộc**. ID của mã lấy được từ API khác ví dụ API lấy danh sách mã đã kích hoạt [Xem tại đây](actived-codes.md) |
 
 ### Kết quả trả về
 Kết quả với dữ liệu hợp lệ:
