@@ -22,3 +22,42 @@ Các tham số gửi lên ngoài tham số bắt buộc:
 | `shop_info` | `string` | Thông tin nơi bán hoặc nới kiểm tra mã, tối đa 150 ký tự |
 | `description` | `string` | **Bắt buộc** Mô tả chi tiết lỗi, sai |
 | `images` | `array` | Ảnh chụp sản phẩm, là một mảng tập tin upload, tối đa 3 ảnh, mỗi ảnh tối đa 2Mb định dạng jpg, jpeg, png |
+
+### Kết quả trả về
+Kết quả với dữ liệu hợp lệ:
+ ```http
+STATUS: 200 OK
+Content-Type: application/json
+```
+```javascript
+{
+    "message": "Gửi báo lỗi thành công. Cảm ơn bạn, chúng tôi sẽ sớm kiểm tra lại thông tin",
+    "status": "OK",
+    "status_code": 200,
+    "captcha": {
+        "required": false,
+        "data": null
+    }
+}
+```
+
+Dữ liệu không hợp lệ:
+ ```http
+STATUS: 200 OK
+Content-Type: application/json
+```
+```javascript
+{
+    "message": "Vui lòng nhập số điện thoại",
+    "errors": {
+        "phone": [
+            "Vui lòng nhập số điện thoại"
+        ]
+    },
+    "status": "INVALID_FIELD",
+    "status_code": 422,
+    "captcha": {
+        "required": false,
+        "data": null
+    }
+}
