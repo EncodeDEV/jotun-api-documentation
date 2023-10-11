@@ -33,6 +33,7 @@ Content-Type: application/json
 {
     "message": "Lấy thông tin thành công",
     "data": {
+        "id": "L3Dw4ZmjgY",
         "code": "[QR_CONTENT]",
         "qr_status": "actived",
         "qr": {
@@ -61,6 +62,7 @@ Content-Type: application/json
 }
 ```
 
+- `data.id` ID mã QR trên hệ thống
 - `data.code` Nội dung mã QR
 - `data.qr` Thông tin mã QR
 - `data.product` Thông tin sản phẩm nếu có
