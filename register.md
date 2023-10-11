@@ -18,9 +18,9 @@ Các tham số gửi lên lên ngoài tham số bắt buộc:
 | Key | Type | Description |
 | :--- | :--- | :--- |
 | `name` | `string` | **Bắt buộc**. Tên hiển thị, tối đa 50 ký tự |
-| `username` | `string` | **Bắt buộc**. Tên đăng nhập, chỉ chấp nhận chữ cái không dấu, chữ số, dấu gạch dưới, tối đa 30 ký tự |
+| `username` | `string` | **Bắt buộc**. Tên đăng nhập duy nhất, chỉ chấp nhận chữ cái không dấu, chữ số, dấu gạch dưới, tối đa 30 ký tự |
 | `cc_phone` | `string` | **Bắt buộc**. Mã điện thoại quốc gia hợp lệ |
-| `phone` | `string` | **Bắt buộc**. Số điện thoại, tối đa 14 ký tự |
+| `phone` | `string` | **Bắt buộc**. Số điện thoại duy nhất, tối đa 14 ký tự |
 | `email` | `string` | Địa chỉ email hợp lệ, tối đa 50 ký tự |
 | `password` | `string` | **Bắt buộc**. Mật khẩu đăng nhập, tối thiểu 8 ký tự, chứ ít nhất một: ký tự viết hoa, viết thường, chữ số, chữ cái và ký tự đặc biệt |
 | `password_confirmation` | `string` | **Bắt buộc**. Mật khẩu đăng nhập nhập lại |
