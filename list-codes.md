@@ -34,7 +34,7 @@ Content-Type: application/json
             {
                 "id": "KVqRPklj3G",
                 "serial": "10000000001",
-                "p_url": "https://mhvn.vn/?j=35jgfm710000000001",
+                "p_url": "[URL]",
                 "actived_at": "14:32, 10/10/2023",
                 "view": 3,
                 "report_count": 13,
