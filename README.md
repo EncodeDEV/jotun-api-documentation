@@ -39,6 +39,7 @@ Các API cần sau cần có token được lấy từ API xác thực trên đ�
 - [Kiểm tra trạng thái đăng nhập](check-login-status.md)
 - [Lấy thông tin tài khoản](user.md)
 - [Cập nhật thông tin tài khoản](update-user.md)
+- [Đổi mật khẩu](change-password.md)
 - [Cập nhật ảnh đại diện](change-avatar.md)
 - [Lấy danh sách mã đã kích hoạt](actived-codes.md)
 - [Lấy thông tin chi tiết mã đã kích hoạt](code-detail.md)
