@@ -92,4 +92,4 @@ API trả về một số https status code sau:
 
 ## Dữ liệu mẫu
 
-[Mã QR mẫu](https://docs.google.com/spreadsheets/d/1JH_hu31zSQLwPjmFE7X00k1yrkju7R4PNSu3f3MSR6c/edit?usp=sharing)
+[Mã QR mẫu](https://docs.google.com/spreadsheets/d/1J38pebblmi-h_Dktxj_mkjy83lNsBOUKWxfD1R-XF00/edit?usp=sharing)
