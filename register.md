@@ -6,7 +6,7 @@ _API cần gửi các tham số bắt buộc [Xem tại đây](README.md) và c�
 
  Gửi request thông qua địa chỉ sau
  ```http
-POST https://jotun..mhvn.vn/api/auth/register
+POST https://jotun.mhvn.vn/api/auth/register
 
 Accept: application/json
 Authorization: Bearer eyJ0eXAiOiJKV-pmnw....8Dbv_l03p5WK2zHh8
