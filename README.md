@@ -39,11 +39,11 @@ Các API cần sau cần có token được lấy từ API xác thực trên đ�
 - [Kiểm tra trạng thái đăng nhập](check-login-status.md)
 - [Lấy thông tin tài khoản](user.md)
 - [Cập nhật thông tin tài khoản](update-user.md)
-   - Xác thực mật khẩu trước khi cập nhật tài khoản
 - [Cập nhật ảnh đại diện](change-avatar.md)
 - [Lấy danh sách mã đã kích hoạt](actived-codes.md)
 - [Lấy thông tin chi tiết mã đã kích hoạt](code-detail.md)
 - Khóa tài khoản
+   - Xác thực mật khẩu trước
 - [Reset mật khẩu](reset-pass.md)
 
 ### Danh sách các API quét mã:
