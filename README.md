@@ -44,7 +44,7 @@ Các API cần sau cần có token được lấy từ API xác thực trên đ�
 - [Lấy danh sách mã đã kích hoạt](actived-codes.md)
 - [Lấy thông tin chi tiết mã đã kích hoạt](code-detail.md)
 - Khóa tài khoản
-- Reset mật khẩu
+- [Reset mật khẩu](reset-pass.md)
 
 ### Danh sách các API quét mã:
 
