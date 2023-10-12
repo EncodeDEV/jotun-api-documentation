@@ -103,3 +103,9 @@ Content-Type: application/json
 <summary>Màn hình hiển thị trường hợp này như sau</summary>
 <img src="images/jotun_barcode_no_product_1242x2688.png" width="300">
 </details>
+
+### Dữ liệu mẫu
+Mã vạch
+```
+8936144810330, 8936188550070
+```
