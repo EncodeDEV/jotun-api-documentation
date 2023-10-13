@@ -47,7 +47,7 @@ Content-Type: application/json
             "phone": "0707 88 7070",
             "description": ""
         },
-        "code_counts": 0,
+        "codes_count": 0,
         "scan_count": 0
     }
 }
@@ -55,6 +55,8 @@ Content-Type: application/json
 
 - `data.user` Thông tin tài khoản
 - `data.agent` Thông tin đại lý
+- `data.codes_count` Số mã QR đã kích hoạt
+- `data.scan_count` Lượt quét mã QR hợp lệ
 
 Token không đúng:
  ```http
