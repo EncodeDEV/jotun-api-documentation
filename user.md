@@ -46,7 +46,9 @@ Content-Type: application/json
             "address": null,
             "phone": "0707 88 7070",
             "description": ""
-        }
+        },
+        "code_counts": 0,
+        "scan_count": 0
     }
 }
 ```
