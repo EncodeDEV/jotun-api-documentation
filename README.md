@@ -57,7 +57,7 @@ Các API cần sau cần có token được lấy từ API xác thực trên đ�
 
 - [Lấy thông tin hiển thị Menu tài khoản.](user-menu.md)
 - Lấy thông tin hiển thị giao diện
-- Trạng thái ứng dụng: Bắt buộc hoặc khuyến nghị cập nhật, thông báo bảo trì
+/*- Trạng thái ứng dụng: Bắt buộc hoặc khuyến nghị cập nhật, thông báo bảo trì*/
 - Đồng bộ lịch sử quét sau khi đăng nhập tài khoản
 
 ## Response Status, Status Code
