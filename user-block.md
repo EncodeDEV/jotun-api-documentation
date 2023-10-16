@@ -30,3 +30,5 @@ Content-Type: application/json
     "status_code": 200
 }
 ```
+
+Sau khi khóa tài khoản thành công tài khoản sẽ được tự động đăng xuất. Quay lại màn hình quét.
