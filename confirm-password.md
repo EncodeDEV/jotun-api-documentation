@@ -35,3 +35,5 @@ Content-Type: application/json
     }
 }
 ```
+
+Sau khi nhận được kết quả xác thực mật khẩu chính xác gọi [API Khóa tài khoản](user-block.md)
