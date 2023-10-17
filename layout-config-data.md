@@ -64,7 +64,7 @@ Content-Type: application/json
 }
 ```
 
-Kết quả nếu tham số `s` gửi một giá trị hợp lệ:
+Kết quả nếu tham số `s` gửi một giá trị hợp lệ, ví dụ _s=scan_:
  ```http
 STATUS: 200 OK
 Content-Type: application/json
@@ -113,7 +113,7 @@ Content-Type: application/json
 }
 ```
 
-Kết quả nếu tham số `s` gửi nhiều giá trị hợp lệ:
+Kết quả nếu tham số `s` gửi nhiều giá trị hợp lệ, ví dụ _s=register,otp_:
  ```http
 STATUS: 200 OK
 Content-Type: application/json
