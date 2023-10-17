@@ -72,20 +72,10 @@ Content-Type: application/json
 ```javascript
 {
     "hotline": {
-        "label": "HOTLINE:",
-        "number": "1800 1511"
+        ...
     },
     "popup": {
-        "ok": {
-            "btn": "Okey"
-        },
-        "warning": {
-            "btn": "Okey"
-        },
-        "confirm": {
-            "btn_confirm": "Chắc chắn",
-            "btn_cancel": "Hủy"
-        }
+        ...
     },
     "layout": {
         "text": {
@@ -131,20 +121,10 @@ Content-Type: application/json
 ```javascript
 {
     "hotline": {
-        "label": "HOTLINE:",
-        "number": "1800 1511"
+        ...
     },
     "popup": {
-        "ok": {
-            "btn": "Okey"
-        },
-        "warning": {
-            "btn": "Okey"
-        },
-        "confirm": {
-            "btn_confirm": "Chắc chắn",
-            "btn_cancel": "Hủy"
-        }
+        ...
     },
     "layout": {
         "register": {
@@ -192,7 +172,7 @@ Content-Type: application/json
                 "tos": {
                     "title": "Điều khoản sử dụng",
                     "action": "web_view",
-                    "url": "https://jotun81.lc:447/m/p/terms-of-service"
+                    "url": "[LINK_WEBVIEW]"
                 }
             }
         },
