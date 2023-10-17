@@ -153,7 +153,7 @@ Content-Type: application/json
                     "label": null,
                     "placeholder": "Mật khẩu"
                 },
-                "password_confirmtion": {
+                "password_confirmation": {
                     "label": null,
                     "placeholder": "Mật khẩu"
                 }
