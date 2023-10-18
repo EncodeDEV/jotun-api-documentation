@@ -16,6 +16,8 @@ Các tham số gửi lên ngoài tham số bắt buộc:
 | Key | Type | Description |
 | :--- | :--- | :--- |
 | `account_token` | `string` | **Bắt buộc**. Token xác thực tài khoản đăng nhập nhận được khi đăng nhập [Xem tại đây](login.md) |
+| `password` | `string` | **Bắt buộc**. Mật khẩu của tài khoản đang đăng nhập |
+| `reason` | `string` | **Bắt buộc**. Lý do khóa tài khoản |
 
 ### Kết quả trả về
 Kết quả với dữ liệu hợp lệ:
