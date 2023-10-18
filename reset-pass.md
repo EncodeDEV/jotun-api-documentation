@@ -60,6 +60,68 @@ Content-Type: application/json
 ```
 
 ## Bước 2: Xác thực OTP
+Gửi request thông qua địa chỉ sau
+ ```http
+POST https://jotun.mhvn.vn/api/auth/verify-otp
+
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV-pmnw....8Dbv_l03p5WK2zHh8
+Content-Type: application/json
+```
+Các tham số gửi lên ngoài tham số bắt buộc:
+
+| Key | Type | Description |
+| :--- | :--- | :--- |
+| `user_id` | `string` | **Bắt buộc**. ID tài khoản lấy được ở Bước 1 |
+| `otp` | `string` | **Bắt buộc**. Mã OTP được nhập bởi người dùng |
+
+### Kết quả trả về
+Kết quả với dữ liệu hợp lệ:
+```http
+STATUS: 200 OK
+Content-Type: application/json
+```
+```javascript
+{
+    "message": "Mã xác thực chính xác",
+    "data": {
+        "user_id": "1aLxX2AON5",
+        "otp": {
+            "refresh_after": 90
+        }
+    },
+    "status": "OK",
+    "status_code": 200,
+    "captcha": {
+        "required": false,
+        "data": null
+    }
+}
+```
+
+Kết quả với dữ liệu không hợp lệ:
+```http
+STATUS: 200 OK
+Content-Type: application/json
+```
+```javascript
+{
+    "message": "Mã OTP không chính xác",
+    "data": {
+        "user_id": "359pJrp0DW",
+        "otp": {
+            "refresh_after": 90
+        }
+    },
+    "errors": {
+        "otp": [
+            "Mã OTP không chính xác"
+        ]
+    },
+    "status": "INVALID_FIELD",
+    "status_code": 422
+}
+```
 
 ## Bước 3: Nhập mật khẩu mới
 
