@@ -18,6 +18,7 @@ Các tham số gửi lên ngoài tham số bắt buộc:
 | Key | Type | Description |
 | :--- | :--- | :--- |
 | `account_token` | `string` | **Bắt buộc**. Token xác thực tài khoản đăng nhập nhận được khi đăng nhập [Xem tại đây](login.md) hoặc đăng ký mới [Xem tại đây](register.md) |
+| `otp` | `string` | **Bắt buộc**. Mã OTP do người dùng nhập |
 
 ### Kết quả trả về
 Kết quả dữ liệu hợp lệ:
