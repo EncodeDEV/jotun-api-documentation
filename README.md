@@ -37,6 +37,7 @@ Các API cần sau cần có token được lấy từ API xác thực trên đ�
 - [Đăng xuất tài khoản đại lý](logout.md)
 - [Xác thực OTP và Cập nhật trạng thái xác thực số điện thoại](phone-verify-update.md)
 - [Xác thực OTP](otp-verify.md)
+- [Gửi lại OTP](otp-send.md)
 - [Kiểm tra trạng thái đăng nhập](check-login-status.md)
 - [Lấy thông tin tài khoản](user.md)
 - [Cập nhật thông tin tài khoản](update-user.md)
