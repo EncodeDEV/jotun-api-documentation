@@ -30,6 +30,8 @@ Content-Type: application/json
     "status_code": 200,
     "data": {
         "user": {
+            "verified": true,
+            "veriried_text": "Đã xác thực",
             "name": "Tai khoan test 0004",
             "username": "daily4",
             "avt": null | "[LINK_IMAGE]",
