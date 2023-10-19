@@ -37,7 +37,7 @@ Content-Type: application/json
             "avt": null | "[LINK_IMAGE]",
             "phone": "+84987888555",
             "phone_verified": false,
-            "email": null,
+            "email": "",
             "email_verified": false,
             "registered_at": "22:30, 30/09/2023",
             "last_login_at": "05:29, 07/10/2023"
