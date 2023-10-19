@@ -56,6 +56,8 @@ Content-Type: application/json
 ```
 
 - `data.user` Thông tin tài khoản
+- `data.user.verified` Trạng thái xác thực bởi quản lý hệ thống
+- `data.user.veriried_text` Text hiển thị ở nút trạng thái xác thực
 - `data.agent` Thông tin đại lý
 - `data.codes_count` Số mã QR đã kích hoạt
 - `data.scan_count` Lượt quét mã QR hợp lệ
