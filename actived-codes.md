@@ -18,9 +18,9 @@ Các tham số gửi lên ngoài tham số bắt buộc:
 | `account_token` | `string` | **Bắt buộc**. Token xác thực tài khoản đăng nhập nhận được khi đăng nhập [Xem tại đây](login.md) |
 | `page` | `integer` | Trang dữ liệu cần lấy |
 | `per` | `integer` | Số bản ghi dữ liệu trên một trang |
-| `d` | `integer` | Ngày kích hoạt |
-| `m` | `integer` | Tháng kích hoạt |
-| `y` | `integer` | Năm kích hoạt |
+| `d` | `integer` | Ngày kích hoạt. Giá trị là 1 đến 31, với các số có 1 chữ số có thẻ thêm 0 vào trước ví dụ 1 có thể gửi 1 hoặc 01 |
+| `m` | `integer` | Tháng kích hoạt. Giá trị là 1 đến 12 |
+| `y` | `integer` | Năm kích hoạt. Giá trị là năm đầy đủ 4 số từ năm 2020 |
 
 ### Kết quả trả về
 Kết quả dữ liệu hợp lệ:
