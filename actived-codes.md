@@ -16,6 +16,11 @@ Các tham số gửi lên ngoài tham số bắt buộc:
 | Key | Type | Description |
 | :--- | :--- | :--- |
 | `account_token` | `string` | **Bắt buộc**. Token xác thực tài khoản đăng nhập nhận được khi đăng nhập [Xem tại đây](login.md) |
+| `page` | `integer` | Trang dữ liệu cần lấy |
+| `per` | `integer` | Số bản ghi dữ liệu trên một trang |
+| `d` | `integer` | Ngày kích hoạt |
+| `m` | `integer` | Tháng kích hoạt |
+| `y` | `integer` | Năm kích hoạt |
 
 ### Kết quả trả về
 Kết quả dữ liệu hợp lệ:
