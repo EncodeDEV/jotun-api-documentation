@@ -61,6 +61,11 @@ Các API cần sau cần có token được lấy từ API xác thực trên đ�
 - [Lấy thông tin hiển thị giao diện](layout-config-data.md)
 <!---- Trạng thái ứng dụng: Bắt buộc hoặc khuyến nghị cập nhật, thông báo bảo trì*/--->
 - Đồng bộ lịch sử quét sau khi đăng nhập tài khoản
+- Lấy danh sách bài viết
+- Lấy danh sách sản phẩm
+- Lấy chi tiết nội dung bài viết
+- Lấy chi tiết thông tin sản phẩm
+- Lấy thông tin ads popup
 
 ## Response Status, Status Code
 Kết quả trả về với https status 200 nếu thông số gửi lên là hợp lệ có thể xử lý dữ liệu, một số trường hợp khác lỗi hệ thống không xác định https status là 500, do gửi sai phương thức https status là 405, sai địa chỉ https status là 404, không xác thực https status là 401, không có quyền https status là 403 (Xem danh sách HTTP status ở dưới)
