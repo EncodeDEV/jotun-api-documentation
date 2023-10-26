@@ -62,7 +62,7 @@ Content-Type: application/json
 - `data.per` Số bản ghi dữ liệu của một trang
 - `data.total_items` Số bản ghi thực tế của trang hiện tại
 - `data.items` Dữ liệu của từng bản ghi
-- `data.items.*.id` ID của bài viết, sử dụng để lấy chi tiết nội dung sản phẩm ở [API lấy nội dung sản phẩm](product-detail.md)
+- `data.items.*.id` ID của sản phẩm, sử dụng để lấy chi tiết nội dung sản phẩm ở [API lấy nội dung sản phẩm](product-detail.md)
 - `data.items.*.name` Tên sản phẩm
 - `data.items.*.featured_image` Ảnh sản phẩm
 - `data.items.*.category` Danh mục sản phẩm
