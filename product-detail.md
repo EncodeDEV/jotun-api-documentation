@@ -42,6 +42,8 @@ Content-Type: application/json
             ....
         ],
         "description": "[HTML_CONTENT]",
+        "agent_link": [LINK_WEB], | null
+        "doc_link": [LINK_WEB], | null
         "updated_at": "18:33, 26/10/2023"
     },
     "status": "OK",
@@ -55,6 +57,8 @@ Content-Type: application/json
 - `data.units` Giá trị đóng gói sản phẩm
 - `data.attributes` Đặc tính nổi bật
 - `data.description` Mô tả chi tiết
+- `data.agent_link` Link cho nút Liên hệ đại lý, click sẽ mở trong web view
+- `data.doc_link` Link cho nút Tải tài liệu kỹ thuật, click sẽ mở trong web view
 - `data.updated_at` Thời gian cập nhật bài viết
 
 Dữ liệu gửi lên không hợp lệ
