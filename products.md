@@ -15,8 +15,8 @@ Các tham số gửi lên ngoài tham số bắt buộc:
 
 | Key | Type | Description |
 | :--- | :--- | :--- |
-| `page` | `integer` | Trang dữ liệu cần lấy |
-| `per` | `integer` | Số bản ghi dữ liệu trên một trang, mặc định là 10 |
+| `page` | `integer` | Trang dữ liệu cần lấy, không sử dụng phân trang không cần gửi |
+| `per` | `integer` | Số bản ghi dữ liệu trên một trang, mặc định là 10, không sử dụng phân trang không cần gửi |
 
 ### Kết quả trả về
 Kết quả dữ liệu hợp lệ:
