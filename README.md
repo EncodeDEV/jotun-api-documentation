@@ -61,10 +61,10 @@ Các API cần sau cần có token được lấy từ API xác thực trên đ�
 - [Lấy thông tin hiển thị giao diện](layout-config-data.md)
 <!---- Trạng thái ứng dụng: Bắt buộc hoặc khuyến nghị cập nhật, thông báo bảo trì*/--->
 - Đồng bộ lịch sử quét sau khi đăng nhập tài khoản
-- Lấy danh sách bài viết
-- Lấy danh sách sản phẩm
-- Lấy chi tiết nội dung bài viết
-- Lấy chi tiết thông tin sản phẩm
+- [Lấy danh sách bài viết](posts.md)
+- [Lấy danh sách sản phẩm](products.md)
+- [Lấy chi tiết nội dung bài viết](post-detail.md)
+- [Lấy chi tiết thông tin sản phẩm](product-detail.md)
 - Lấy thông tin ads popup
 
 ## Response Status, Status Code
