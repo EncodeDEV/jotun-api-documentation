@@ -65,7 +65,7 @@ Các API cần sau cần có token được lấy từ API xác thực trên đ�
 - [Lấy danh sách sản phẩm](products.md)
 - [Lấy chi tiết nội dung bài viết](post-detail.md)
 - [Lấy chi tiết thông tin sản phẩm](product-detail.md)
-- Lấy thông tin ads popup
+- [Lấy thông tin banner quảng cáo popup](adv.md)
 
 ## Response Status, Status Code
 Kết quả trả về với https status 200 nếu thông số gửi lên là hợp lệ có thể xử lý dữ liệu, một số trường hợp khác lỗi hệ thống không xác định https status là 500, do gửi sai phương thức https status là 405, sai địa chỉ https status là 404, không xác thực https status là 401, không có quyền https status là 403 (Xem danh sách HTTP status ở dưới)
