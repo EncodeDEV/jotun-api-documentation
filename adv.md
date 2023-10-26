@@ -1,1 +1,1 @@
-# Hiển thị quảng cáo dạng popup
+# Hiển thị banner quảng cáo dạng popup
