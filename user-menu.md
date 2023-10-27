@@ -29,32 +29,44 @@ Content-Type: application/json
         {
             "title": "Lịch sử kích hoạt mã",
             "action": "open_app_fn",
-            "url": "list_actived_codes"
+            "url": "list_actived_codes",
+            "text-color": "#ffffff",
+            "bg-color": "#0e133a"
         },
         {
             "title": "Lịch sử quét",
             "action": "open_app_fn",
-            "url": "list_scanned_histories"
+            "url": "list_scanned_histories",
+            "text-color": "#ffffff",
+            "bg-color": "#0e133a"
         },
         {
             "title": "Liên hệ hỗ trợ",
             "action": "web_view",
-            "url": "[URL]"
+            "url": "[URL]",
+            "text-color": "#ffffff",
+            "bg-color": "#0e133a"
         },
         {
             "title": "Giới thiệu & Hướng dẫn",
             "action": "web_view",
-            "url": "[URL]"
+            "url": "[URL]",
+            "text-color": "#ffffff",
+            "bg-color": "#0e133a"
         },
         {
             "title": "Điều khoản sử dụng",
             "action": "web_view",
-            "url": "[URL]"
+            "url": "[URL]",
+            "text-color": "#ffffff",
+            "bg-color": "#0e133a"
         },
         {
             "title": "Chính sách bảo mật",
             "action": "web_view",
-            "url": "[URL]"
+            "url": "[URL]",
+            "text-color": "#ffffff",
+            "bg-color": "#0e133a"
         }
     ],
     "status": "OK",
