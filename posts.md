@@ -36,13 +36,15 @@ Content-Type: application/json
                 "id": "eJMpdeaZO5",
                 "title": "Giảm giá 50% dịp Halloween 2023",
                 "featured_image": "[URL_IMAGE]",
-                "action": "app_view"
+                "action": "app_view",
+                "url":""
             },
             {
                 "id": "KLJarozPyR",
                 "title": "Chương trình khuyến mãi dịp Back Friday 2023",
                 "featured_image": "[URL_IMAGE]",
-                "action": "app_view"
+                "action": "web_view"
+                "url": "[URL_WEB]"
             }
         ]
     },
@@ -59,6 +61,7 @@ Content-Type: application/json
 - `data.items.*.title` Tiêu đề bài viết
 - `data.items.*.featured_image` Ảnh bài viết
 - `data.items.*.action` Hiển thị nội dung bằng giao diện ứng dụng hay bằng web view, giá trị là _app_view_ hoặc _web_view_
+- `data.items.*.url` Địa chỉ hiển thị trong web view khi action là _web_view_. Khi action là _app_view_ giá trị luôn là chuỗi rỗng
 
 Không có dữ liệu
  ```http
