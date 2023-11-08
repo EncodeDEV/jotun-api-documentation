@@ -63,8 +63,7 @@ Content-Type: application/json
     "data": {
         "otp": {
             "refresh_after": 68,
-            "wait": true,
-            "limit": false
+            "status": 'wait',
         }
     },
     "status": "INVALID_FIELD",
@@ -89,8 +88,7 @@ Content-Type: application/json
     "data": {
         "otp": {
             "refresh_after": 90,
-            "wait": false,
-            "limit": true
+            "status": 'limit',
         }
     },
     "status": "INVALID_FIELD",
