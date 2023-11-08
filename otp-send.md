@@ -35,8 +35,7 @@ Content-Type: application/json
     "data": {
         "otp": {
             "refresh_after": 90,
-            "wait": false,
-            "limit": false
+            "status": 'wait',
         }
     },
     "status": "OK",
@@ -46,8 +45,7 @@ Content-Type: application/json
 ```
 
 - `data.otp.refresh_after` Thời gian chờ để có thể yêu cầu gửi lại lần tiếp
-- `data.otp.wait` Trạng thái có đang chờ gửi lại tiếp hay không 
-- `data.otp.limit` Trạng thái có đang bị vượt quá giới hạn gửi không
+- `data.otp.status` Trạng thái có đang chờ gửi lại tiếp hay không 
 
 Yêu cầu gửi quá nhanh:
  ```http
