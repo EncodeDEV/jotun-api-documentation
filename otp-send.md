@@ -45,7 +45,7 @@ Content-Type: application/json
 ```
 
 - `data.otp.refresh_after` Thời gian chờ để có thể yêu cầu gửi lại lần tiếp
-- `data.otp.status` Trạng thái có đang chờ gửi lại tiếp hay không 
+- `data.otp.status` Trạng thái có gửi lại tiếp hay không, giá trị là `wait`: chờ lượt tiếp, `limit`: vượt quá giới hạn gửi
 
 Yêu cầu gửi quá nhanh:
  ```http
