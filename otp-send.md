@@ -34,7 +34,9 @@ Content-Type: application/json
     "message": "Gửi mã OTP thành công",
     "data": {
         "otp": {
-            "refresh_after": 90
+            "refresh_after": 90,
+            "wait": false,
+            "limit": false
         }
     },
     "status": "OK",
@@ -50,7 +52,7 @@ Content-Type: application/json
 ```
 ```javascript
 {
-    "message": "Vui lòng yêu cầu gửi lại OTP sau 90 giây",
+    "message": "Vui lòng yêu cầu gửi lại OTP sau 68 giây",
     "errors": {
         "limit": [
             "Đang trong thời gian chờ để có thể gửi lại mã OTP"
@@ -58,7 +60,9 @@ Content-Type: application/json
     },
     "data": {
         "otp": {
-            "refresh_after": 90
+            "refresh_after": 68,
+            "wait": true,
+            "limit": false
         }
     },
     "status": "INVALID_FIELD",
@@ -82,7 +86,9 @@ Content-Type: application/json
     },
     "data": {
         "otp": {
-            "refresh_after": 90
+            "refresh_after": 90,
+            "wait": false,
+            "limit": true
         }
     },
     "status": "INVALID_FIELD",
