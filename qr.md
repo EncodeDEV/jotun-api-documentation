@@ -55,7 +55,8 @@ Content-Type: application/json
             "hotline": null,
             "email": null,
             "website": null
-        }
+        },
+        "can_report": false
     },
     "status": "OK",
     "status_code": 200
@@ -67,6 +68,7 @@ Content-Type: application/json
 - `data.qr` Thông tin mã QR
 - `data.product` Thông tin sản phẩm nếu có
 - `data.agent` Thông tin đại lý kích hoạt
+- `data.can_report` Ẩn hiện chức năng báo sai thông tin. Giá trị là `true` hoặc `false`
 
 <details>
 <summary>Màn hình hiển thị trường hợp này như sau</summary>
@@ -89,7 +91,8 @@ Content-Type: application/json
             "last_view": null
         },
         "qr_status": "unactived",
-        "warning_text": "Mã chưa được kích hoạt. Vui lòng liên hệ đại lý để kích hoạt"
+        "warning_text": "Mã chưa được kích hoạt. Vui lòng liên hệ đại lý để kích hoạt",
+        "can_report": false
     },
     "status": "OK",
     "status_code": 200
@@ -117,7 +120,8 @@ Content-Type: application/json
     "data": {
         "code": "[QR_CONTENT]",
         "qr_status": "blocked",
-        "warning_text": "Mã đã bị khóa. Vui lòng liên hệ đại lý hoặc HOTLINE để được hỗ trợ"
+        "warning_text": "Mã đã bị khóa. Vui lòng liên hệ đại lý hoặc HOTLINE để được hỗ trợ",
+        "can_report": false
     },
     "status": "OK",
     "status_code": 200
@@ -144,7 +148,8 @@ Content-Type: application/json
     "data": {
         "code": "[QR_CONTENT]",
         "qr_status": "trashed",
-        "warning_text": "Mã không tồn tại. Vui lòng liên hệ đại lý hoặc HOTLINE để được hỗ trợ"
+        "warning_text": "Mã không tồn tại. Vui lòng liên hệ đại lý hoặc HOTLINE để được hỗ trợ",
+        "can_report": false
     },
     "status": "OK",
     "status_code": 200
